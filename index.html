@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Projeto Cronometro - Java Script</title>
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <audio src="./som/mixkit-city-alert-siren-loop-1008.wav" id="sound"></audio>
+
+    <div class="container" id="container">
+        <div class="w-50">
+            <div class="minutos">
+                <h2>Minutos</h2>
+                <select id="minutos" name="minutos"></select>
+            </div>
+        </div><!--w-50-->
+        <div class="w-50">
+            <div class="segundos">
+                <h2>Segundos</h2>
+                <select id="segundos" name="segundos"></select>
+            </div><!--w-50-->
+        </div>
+
+        <div class="clear"></div><!--clear-->
+
+            <button id="iniciar">Iniciar !</button>
+            <button id="zerar">Zerar !</button>
+
+    </div><!--container-->
+    <div id="display">
+        <h3></h3>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
