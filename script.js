@@ -35,6 +35,7 @@ iniciar.addEventListener('click',function(){
         segundoAtual--;
         if(segundoAtual <= 0){
             if(minutoAtual > 0){
+                minutoAtual--;
                 segundoAtual = 59;
             }else{
                 alert("Acabou!");
